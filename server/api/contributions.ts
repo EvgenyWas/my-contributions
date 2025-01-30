@@ -39,6 +39,6 @@ export default defineCachedEventHandler(
     name: "contributions",
     getKey: () => "all",
     swr: true,
-    maxAge: 60 * 60 * 24, // 1 day
+    maxAge: 60 * 60 * 5, // 5 hours
   }
 );
